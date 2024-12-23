@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>표 만들기</title>
+</head>
+<body>
+  <h1>표 만들기 실습!!</h1>
+  <h4>현재 패이지를 똑같이 만들기!!</h4>
+  <table border = "1" cellspacing = "0">
+    <caption>언어의 특징</caption>
+    <thead>
+      <tr>
+        <th>언어</th>
+        <th>사용 목적</th>
+        <th>문법</th>
+        <th>특징</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>HTML</td>
+        <td>웹 페이지 구조화</td>
+        <td>태그를 사용하여 요소 정의</td>
+        <td>정적 콘텐츠 표현</td>
+      </tr>
+      <tr>
+        <td>CSS</td>
+        <td>스타일링 및 레이아웃</td>
+        <td>선택자와 선언 블록</td>
+        <td>디자인 및 레이아웃 제어</td>
+      </tr>
+      <tr>
+        <td>JavaScript</td>
+        <td>동적 기능 구현</td>
+        <td>스크립트 언어</td>
+        <td>웹 페이지의 동작과 상호 작용</td>
+      </tr>
+      <tr>
+        <td colspan = "4" style = "text-align : center;"><strong><em>다른 언어</em></strong>는 어떻게 될까?</td>
+      </tr>
+    </tbody>
+  </table>
+</body>
+</html>
+===========================================================================================
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>글꼴 관련 태그</title>
+</head>
+  <body>
+    <h1>글꼴 관련 태그 연습</h1>
+    <b>bold text</b>
+    <br>
+    <strong>strong text</strong>
+    <br>
+    <i>italic text</i>
+    <br>
+    <em>emphasized text</em>
+    <br>
+    <mark>mark text</mark>
+    <br>
+    <small>small text</small>
+    <br>
+    <del>취소선 deleted text</del>
+    <br>
+    <ins>밑줄 inserted text</ins>
+    <br>
+    This is 
+    <sup>superscript text</sup>
+    <br>
+    This is 
+    <sub>subscript text</sub>
+  </body>
+</html>
+=========================================================================================<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=1, initial-scale=1.0">
+  <title>문단 태그 연습</title>
+</head>
+<body>
+  <h1>문단 태그 연습</h1>
+  <p>p태그입니다</p>
+  <p>p태그 적용시 엔터로 줄바꿈해도 적용되지 않습니다</p>
+  <p>
+    p태그에 줄바꿈 적용하고 싶으면
+    <br>
+    중간에 br태그를 사용합니다
+  </p>
+  <pre>
+            pre태그는 엔터가 모두 적용됩니다
+            줄바꿈이나
+                띄어쓰기가
+                html파일에서 작성한
+                  그대로 적용되어
+              출력됩니다
+  </pre>
+  <pre>
+    <h2>pre태그와
+                    h2태그를 함께쓰면 그대로 적용됩니다</h2>
+  </pre>
+</body>
+</html>
