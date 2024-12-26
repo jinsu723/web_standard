@@ -32,7 +32,7 @@ HTML -> IDE 설치 -> HTML 기본 요소와 태그 -> 인라인/블록요소 -> 
 	  최근 대부분의 웹 브라우저에서 HTML5를 지원하게 되면서 HTML5에서 숫자 5를 빼고 HTML이라고 부른다
 
 1) HTML 구조
-	기본구조는 <!DOCTYPE>로 시작해서 <html>, <head>, <body> 4개 영역으로 구성됨
+	기본구조는 <!DOCTYPE>로 시작해서 <html>, <head>, <body> 3개 영역으로 구성됨
 	<!DOCTYPE html>		: 현제 문서가 HTML5 언어로 작성된 웹 문서라는 의미
 	<html>			: <html>~</html> 웹 문서의 시작과 끝을 나타내는 태그
 		<head></head>	: <head>~</head> 웹 브라우저가 웹 문서를

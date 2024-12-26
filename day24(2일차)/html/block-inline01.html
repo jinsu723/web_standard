@@ -1,0 +1,54 @@
+<!-- 5번 : css 스타일-내부 스타일 -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>css 내부 스타일</title>
+  <style>
+    /* CSS 주석 */
+    /* body {
+      background-color : black;
+    } */
+
+    /* *은 모든 요소를 선택함 */
+    * {
+      background-color:silver;
+      font-size:25px;
+    }
+
+    /* h1 태그 선택자 사용가능 */
+    h1 {
+      color: blue;
+      background-color: yellow;
+    }
+
+    /* #id명 id 선택자 */
+    #span-id {
+      color:aqua;
+    }
+
+    /* .class명 class 선택자 */
+    .p-class {
+      background-color:deeppink;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>id와 class 속성</h1>
+
+  <span id="span-id">span 요소1</span>
+  <span style="color:red; background-color:beige;">span 요소2</span>
+
+  <p class="p-class">p 요소1</p>
+  <p style="color:blue; background-color:beige;">p 요소2</p>
+
+  <!-- div{div요소$}*2 -->
+  <div>div요소1</div>
+  <div style="color:darkblue; background-color:beige;">div요소2</div>
+
+</body>
+
+</html>

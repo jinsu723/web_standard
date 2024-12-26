@@ -1,0 +1,193 @@
+<!-- 2번 : 시맨틱 태그 -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>semantic</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      height: 100px;
+      color: white;
+      background-color: tomato;
+      font-size: 30px;
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+    }
+
+    .header--text-box {
+      height: 50px;
+    }
+
+    nav {
+      height: 50px;
+      background: darkblue;
+      font-size: 20px;
+      width: 100%
+    }
+
+    ul {
+      display: flex;
+      list-style-type: none;
+    }
+
+    li {
+      /* border: 1px solid white; */
+      margin: 0 10px;
+      line-height: 50px;
+    }
+
+    .main_container {
+      border: 1px solid black;
+      background-color: yellow;
+      display: flex;
+      height: 500px;
+    }
+
+    aside {
+      background-color: brown;
+      height: 100%;
+      width: 200px;
+      color: white;
+      font-size: 30px;
+      display: flex;
+    }
+
+    .aside--text-box {
+      margin: auto;
+    }
+
+    main {
+      height: 100%;
+      width: 100%;
+      background-color: yellowgreen;
+      color: white;
+      font-size: 30px;
+    }
+
+    section {
+      background-color: blueviolet;
+      margin: 20px auto;
+      font-size: 20px;
+    }
+
+    .section01 {
+      width: 40%;
+      height: 30%;
+    }
+
+    article {
+      /* background-color: aqua; */
+      margin: auto;
+    }
+
+    .section01--text-box {
+      height: 20%;
+    }
+
+    .section01--article-container {
+      display: flex;
+      width: 100%;
+      height: 80%;
+    }
+
+    article {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .article--text-box {
+      background-color: aqua;
+      width: 100px;
+      height: 60px;
+      margin: 15px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .section02 {
+      width: 40%;
+      height: 45%;
+    }
+
+    .section02--article-container {
+      justify-content: center;
+    }
+
+    footer {
+      background-color: crimson;
+      height: 100px;
+      width: 100%;
+      color: white;
+      text-align: center;
+      font-size: 30px;
+      display:flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+  </style>
+</head>
+
+<body>
+  <header>
+    <div class="header--text-box">header</div>
+    <nav>
+      <ul>
+        <li>nav 메뉴1</li>
+        <li>nav 메뉴2</li>
+        <li>nav 메뉴3</li>
+        <li>nav 메뉴4</li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="main_container">
+    <aside>
+      <div class="aside--text-box">aside</div>
+    </aside>
+    <main>
+      <div class="main--text-box">main</div>
+      <section class="section01">
+        <div class="section01--text-box">section</div>
+        <div class="section01--article-container">
+          <article class="section01--article">
+            <div class="article--text-box">article</div>
+            <div class="article--text-box">article</div>
+            <div class="article--text-box">article</div>
+          </article>
+        </div>
+      </section>
+      <section class="section02">
+        <div class="section02--text-box">section</div>
+        <div class="section02--article-container">
+          <article class="section02--article-top">
+            <div class="article--text-box">article</div>
+            <div class="article--text-box">article</div>
+          </article>
+          <article class="secton02--article-bottom">
+            <div class="article--text-box">article</div>
+            <div class="article--text-box">article</div>
+          </article>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <footer>
+    <div class="footer--text-box">
+      footer
+    </div>
+  </footer>
+</body>
+
+</html>
